@@ -1,0 +1,236 @@
+/* --------Base Styles--------- */
+body, html  {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ 
+body  {
+	background-image:url('grey_wash_wall.png');
+    font: 14px Helvetica, Arial, Verdana,  sans-serif;
+    letter-spacing: 1.5px;
+    font-weight:100;
+
+}
+ 
+div.wrap  {
+    width: 950px;
+    height:100px;
+    margin:auto;
+    padding:0px;
+}
+
+div.no-wrap  {
+	width: 950px;
+    height:100px;
+    margin: auto;
+    white-space: nowrap;
+}
+
+/* Resources */
+#resources{
+	float:right;
+	margin-top:15px;
+	color:white;
+	font-size: 11px;
+	text-shadow: 0 0px 0 #000;
+	padding:none;
+}
+
+#icon{
+	float:right;
+	width:30px;
+	height: 30px;
+	margin-top:0px;
+}
+
+
+/* Logo */
+
+#logo-header{
+	height:100px;
+}
+
+#logo{
+	width:300px;
+	margin-left:0px;
+}
+
+
+/* --------Nav Bar--------- */
+ul{
+	margin:0px auto;
+	padding:0px;
+	display: inline-block;
+}
+div ul li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+}
+ 
+div ul li a{
+	display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 188px;
+    line-height: 40px;
+    color: #fff;
+
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+
+    border-right: 1px solid #323235;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+
+    background-image: -moz-linear-gradient(top, #535357, #3c3c3f);
+    background-image: -ms-linear-gradient(top, #535357, #3c3c3f);
+    background-image: -webkit-linear-gradient(top, #535357, #3c3c3f);
+    background-image: linear-gradient(top, #535357, #3c3c3f);
+
+    -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+    box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+}
+
+div ul li a:hover {
+	color:#048FD4;
+    text-decoration:none;
+    text-shadow: 0 1px 0 #000;
+
+}
+
+div ul li a:active  {
+    background: #414142;
+    -webkit-box-shadow: inset 0 2px 3px rgba(0,0,0, 0.2);
+    -moz-box-shadow: inset 0 2px 3px rgba(0,0,0, 0.2);
+    box-shadow: inset 0 2px 3px rgba(0,0,0, 0.2);
+}
+
+/*Highlight Navigation Bar*/
+#nav-select{
+	display: inline-block;
+	color:white;
+	background-image: -moz-linear-gradient(top, #048FD4, #0271A8);
+    background-image: -ms-linear-gradient(top, #048FD4, #0271A8);
+    background-image: -webkit-linear-gradient(top, #048FD4, #0271A8);
+    background-image: linear-gradient(top, #048FD4, #0271A8);
+    text-shadow: 0 1px 0 #000;
+}
+#nav-select2{
+	display: inline-block;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	width: 188px;
+	color:white;
+	background-image: -moz-linear-gradient(top, #048FD4, #0271A8);
+    background-image: -ms-linear-gradient(top, #048FD4, #0271A8);
+    background-image: -webkit-linear-gradient(top, #048FD4, #0271A8);
+    background-image: linear-gradient(top, #048FD4, #0271A8);
+    text-shadow: 0 1px 0 #000;
+}
+/* Curved Navigation Bar */
+
+#end1{
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+#end2{
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	width: 188px;
+}
+
+/* Body */
+
+#body1{
+    text-align: center;
+	width:950px;
+	margin:auto;
+    margin-top:-40px;
+	padding:0px;
+	height:600px;
+	background-color:white;
+	border-radius: 10px;
+	box-shadow: 1px 2px 4px #000;
+}
+
+.table-center{
+    display: inline-block;
+	position:center;
+	margin: auto;
+}
+
+
+#bodynav_brand{
+	width:200px;
+    height: 100px;
+	padding:0px 55px 0px 55px;
+    background-image: url('brand_gray.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bodynav_brand:hover{
+    width:200px;
+    padding:0px 55px 0px 55px;
+    background-image: url('brand.png');
+}
+
+
+#bodynav_design{
+    width:200px;
+    height: 100px;
+    padding:0px 55px 0px 55px;
+    background-image: url('brand_gray.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bodynav_design:hover{
+    width:200px;
+    padding:0px 55px 0px 55px;
+    background-image: url('brand.png');
+}
+
+#bodynav_numbers{
+    width:200px;
+    height: 100px;
+    padding:0px 55px 0px 55px;
+    background-image: url('brand_gray.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bodynav_numbers:hover{
+    width:200px;
+    padding:0px 55px 0px 55px;
+    background-image: url('brand.png');
+}    
+
+#inspiration{
+    display: inline-block;
+    position: center;
+    margin-left: 10 px;
+    width:400px;
+}
+
+/* Slides */
+#floatright{
+    position:absolute;
+    top:125px;
+    left:920px;
+    z-index: 100;
+    width:30px;
+    background-color: black;
+}
+
+#floatleft{
+    position:absolute;
+    top:125px;
+    left:0px;
+    z-index: 100;
+    width:30px;
+    background-color: black;
+}

@@ -3,6 +3,11 @@ TestApp::Application.routes.draw do
 root to: 'static_pages#home'
 
 
+match '/branding', to: 'static_pages#branding'
+match '/consulting', to: 'static_pages#consulting'
+match '/about_us', to: 'static_pages#about_us'
+match '/contact', to: 'static_pages#contact'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
