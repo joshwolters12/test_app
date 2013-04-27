@@ -217,6 +217,18 @@ body p{
 	box-shadow: 1px 2px 4px #000;
 }
 
+#body2{
+    text-align: center;
+    width:946px;
+    margin:auto;
+    margin-top:-20px;
+    height:630px;
+    background-image:url('topography.png');
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: 1px 2px 4px #000;
+}
+
 #gradient{
     text-align: center;
     width:946px;
@@ -247,19 +259,25 @@ body p{
 
 
 #bodynav_brand{
+    display: inline-block;
 	width:200px;
-    height: 80px;
-	padding:5px 55px 5px 55px;
+    height: 100px;
+	padding:5px 0px 5px 55px;
     background-image: url('brand_gray.png');
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     float:left;
+    margin-left:20px;
 }
 
 #bodynav_brand:hover{
+    display: inline-block;
     width:200px;
-    padding:5px 55px 5px 55px;
+    height: 100px;
+    padding:5px 0px 5px 55px;
     background-image: url('brand.png');
+    float:left;
+    margin-left:20px;
 }
 
 
