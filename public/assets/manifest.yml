@@ -11,6 +11,8 @@ camera-loader.gif: camera-loader-9b3dce6932d3612ef116184773989d24.gif
 camera-loader/index.gif: camera-loader-9b3dce6932d3612ef116184773989d24.gif
 camera_skins.png: camera_skins-f8b0d4bd6060e772949bf1ebb0c85506.png
 camera_skins/index.png: camera_skins-f8b0d4bd6060e772949bf1ebb0c85506.png
+debut_dark.png: debut_dark-20f8d9ffb8733e0f76800417f303aecf.png
+debut_dark/index.png: debut_dark-20f8d9ffb8733e0f76800417f303aecf.png
 grey_wash_wall.png: grey_wash_wall-0bf6bf999d92641cc68bba7b48824df4.png
 grey_wash_wall/index.png: grey_wash_wall-0bf6bf999d92641cc68bba7b48824df4.png
 gyara.png: gyara-6ac74f19eb3b8ed40d0a28195a0e6a2f.png
@@ -39,6 +41,8 @@ logo_facebook.png: logo_facebook-3b72c7e3653c7533bb969fc618a86699.png
 logo_facebook/index.png: logo_facebook-3b72c7e3653c7533bb969fc618a86699.png
 logo_twitter.png: logo_twitter-7b3551cea1c2560756f7b6a0e24dd677.png
 logo_twitter/index.png: logo_twitter-7b3551cea1c2560756f7b6a0e24dd677.png
+navy_blue.png: navy_blue-46388556227763ea10ee990948341bb4.png
+navy_blue/index.png: navy_blue-46388556227763ea10ee990948341bb4.png
 next.png: next-47b986db7cdecb4ce795ae744102d2f3.png
 next/index.png: next-47b986db7cdecb4ce795ae744102d2f3.png
 patterns/_notes/dwsync.xml: patterns/_notes/dwsync-7cf8773d55674e57cb1a845f250e2378.xml
@@ -101,10 +105,14 @@ slides/thumbs/tree.jpg: slides/thumbs/tree-d052a40748827f94d3117bc3e56429f0.jpg
 slides/thumbs/tree/index.jpg: slides/thumbs/tree-d052a40748827f94d3117bc3e56429f0.jpg
 slides/tree.jpg: slides/tree-a478897ffc0c595c89ac75603bc6e3c4.jpg
 slides/tree/index.jpg: slides/tree-a478897ffc0c595c89ac75603bc6e3c4.jpg
+textured_paper.png: textured_paper-aaf00f1a3fc3760efbaa55ee0a1f9d4e.png
+textured_paper/index.png: textured_paper-aaf00f1a3fc3760efbaa55ee0a1f9d4e.png
+textured_paper_blue.png: textured_paper_blue-4177f43e87401268619c80e62e6eb207.png
+textured_paper_blue/index.png: textured_paper_blue-4177f43e87401268619c80e62e6eb207.png
 application.js: application-0ff8f4919247894d95103c483cd1ffe2.js
 application/index.js: application-0ff8f4919247894d95103c483cd1ffe2.js
-application.css: application-ec49b27c29d7c1af1b0a462679b3e19f.css
-application/index.css: application-ec49b27c29d7c1af1b0a462679b3e19f.css
+application.css: application-93d18ceb7888002343ca0a30ae2e0c2c.css
+application/index.css: application-93d18ceb7888002343ca0a30ae2e0c2c.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
