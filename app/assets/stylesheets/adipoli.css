@@ -1,0 +1,60 @@
+
+#body_no_radius h1{
+    font-size: 50px;
+    text-shadow: 0 0px 0 #000;
+    color: black;
+    clear:both;
+    float:center;
+
+}
+
+#container{
+    display:block;
+    float:left;
+    height:550px;
+    width:948px;
+}
+.transparent{
+    float:left;
+    display:block;
+    height:200px;
+    width:470px;
+    margin:auto;
+    margin-left: 2px;
+    padding-bottom: 66px;
+    padding-right: 1px;
+}
+
+.adipoli-wrapper
+{
+    margin:auto;
+    position:relative;
+    display: inline-block;
+}
+.adipoli-wrapper>img
+{
+    position: absolute;
+    z-index: 1;
+}
+.adipoli-before
+{
+    position: absolute;
+    z-index: 5;
+}
+.adipoli-after
+{
+    position: absolute;
+    z-index: 10;
+}
+.adipoli-slice {
+    display:block;
+    position:absolute;
+    z-index:15;
+    height:100%;
+}
+.adipoli-box
+{
+    display:block;
+    position:absolute;
+    z-index:15;
+}
