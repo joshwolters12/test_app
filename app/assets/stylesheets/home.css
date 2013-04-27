@@ -22,7 +22,7 @@ div.no-wrap  {
 	width: 950px;
     height:100px;
     margin: auto;
-    min-width: 100%;
+    min-width: 1000px;
     overflow: auto;
 }
 
@@ -109,7 +109,7 @@ div ul li a:active  {
 
 #guideline1{
     position:absolute;
-    margin-left:280px;
+    margin-left:305px;
     height:100px;
     width:4px;
     background-color: #048FD4;
@@ -117,7 +117,7 @@ div ul li a:active  {
 }
 #guideline2{
     position:absolute;
-    margin-left:472px;
+    margin-left:497px;
     height:100px;
     width:4px;
     background-color: #048FD4;
@@ -125,7 +125,7 @@ div ul li a:active  {
 }
 #guideline3{
     position:absolute;
-    margin-left:660px;
+    margin-left:685px;
     height:100px;
     width:4px;
     background-color: #048FD4;
@@ -133,7 +133,7 @@ div ul li a:active  {
 }
 #guideline4{
     position:absolute;
-    margin-left:846px;
+    margin-left:871px;
     height:100px;
     width:4px;
     background-color: #048FD4;
@@ -248,16 +248,17 @@ body p{
 
 #bodynav_brand{
 	width:200px;
-    height: 100px;
-	padding:0px 55px 0px 55px;
+    height: 80px;
+	padding:5px 55px 5px 55px;
     background-image: url('brand_gray.png');
     background-position: center;
     background-repeat: no-repeat;
+    float:left;
 }
 
 #bodynav_brand:hover{
     width:200px;
-    padding:0px 55px 0px 55px;
+    padding:5px 55px 5px 55px;
     background-image: url('brand.png');
 }
 
@@ -265,38 +266,38 @@ body p{
 #bodynav_design{
     width:200px;
     height: 100px;
-    padding:0px 55px 0px 55px;
-    background-image: url('brand_gray.png');
+    padding:5px 55px 5px 55px;
+    background-image: url('design_gray.png');
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #bodynav_design:hover{
     width:200px;
-    padding:0px 55px 0px 55px;
-    background-image: url('brand.png');
+    padding:5px 55px 5px 55px;
+    background-image: url('design.png');
 }
 
 #bodynav_numbers{
     width:200px;
     height: 100px;
-    padding:0px 55px 0px 55px;
-    background-image: url('brand_gray.png');
+    padding:5px 55px 5px 55px;
+    background-image: url('numbers_gray.png');
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #bodynav_numbers:hover{
     width:200px;
-    padding:0px 55px 0px 55px;
-    background-image: url('brand.png');
+    padding:5px 55px 5px 55px;
+    background-image: url('numbers.png');
 }    
 
 #inspiration{
     display: inline-block;
     position: center;
     margin-left: 10px;
-    margin-top:40px;
+    margin-top:30px;
     width:400px;
 }
 
