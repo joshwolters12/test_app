@@ -25,11 +25,11 @@
 	z-index: 0;
 	margin:auto;
 	height:300px;
-	width:950px;
+	width:946px;
 	background-color: gray;
 }
 .camera_wrap img {
-	max-width: 950px!important;
+	max-width: 946px!important;
 }
 .camera_fakehover {
 	height: 100%;
@@ -39,7 +39,7 @@
 	z-index: 1;
 }
 .camera_wrap {
-	width: 950px;
+	width: 946px;
 }
 .camera_src {
 	display: none;

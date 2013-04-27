@@ -3,18 +3,16 @@ body, html  {
     margin: 0;
     padding: 0;
     text-align: center;
+    font: 14px Helvetica, Arial, Verdana,  sans-serif;
+    letter-spacing: 1.5px;
 }
  
 body  {
-	background-image:url('grey_wash_wall.png');
-    font: 14px Helvetica, Arial, Verdana,  sans-serif;
-    letter-spacing: 1.5px;
-    font-weight:100;
-
+	background-image:url('debut_dark.png');
 }
  
 div.wrap  {
-    width: 950px;
+    width: 946px;
     height:100px;
     margin:auto;
     padding:0px;
@@ -24,7 +22,6 @@ div.no-wrap  {
 	width: 950px;
     height:100px;
     margin: auto;
-    white-space: nowrap;
 }
 
 /* Resources */
@@ -66,11 +63,9 @@ ul{
 div ul li {
     list-style: none;
     position: relative;
-    display: inline-block;
 }
  
 div ul li a{
-	display: inline-block;
     text-align: center;
     height: 40px;
     width: 188px;
@@ -91,6 +86,8 @@ div ul li a{
     -webkit-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
     -moz-box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
     box-shadow: inset 0 1px 0px rgba(255, 255, 255, 0.2), 0 1px 0px #292929;
+
+    opacity:0.8;
 }
 
 div ul li a:hover {
@@ -107,6 +104,38 @@ div ul li a:active  {
     box-shadow: inset 0 2px 3px rgba(0,0,0, 0.2);
 }
 
+#guideline1{
+    position:absolute;
+    margin-left:280px;
+    height:100px;
+    width:4px;
+    background-color: #048FD4;
+    z-index: -1;
+}
+#guideline2{
+    position:absolute;
+    margin-left:472px;
+    height:100px;
+    width:4px;
+    background-color: #048FD4;
+    z-index: -1;
+}
+#guideline3{
+    position:absolute;
+    margin-left:660px;
+    height:100px;
+    width:4px;
+    background-color: #048FD4;
+    z-index: -1;
+}
+#guideline4{
+    position:absolute;
+    margin-left:846px;
+    height:100px;
+    width:4px;
+    background-color: #048FD4;
+    z-index: -1;
+}
 /*Highlight Navigation Bar*/
 #nav-select{
 	display: inline-block;
@@ -116,44 +145,95 @@ div ul li a:active  {
     background-image: -webkit-linear-gradient(top, #048FD4, #0271A8);
     background-image: linear-gradient(top, #048FD4, #0271A8);
     text-shadow: 0 1px 0 #000;
+    box-shadow: inset 0 0px 0px rgba(255, 255, 255, 0.2), 0 0px 0px #292929;
 }
+
 #nav-select2{
-	display: inline-block;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-	width: 188px;
-	color:white;
-	background-image: -moz-linear-gradient(top, #048FD4, #0271A8);
+    display: inline-block;
+    color:white;
+    background-image: -moz-linear-gradient(top, #048FD4, #0271A8);
     background-image: -ms-linear-gradient(top, #048FD4, #0271A8);
     background-image: -webkit-linear-gradient(top, #048FD4, #0271A8);
     background-image: linear-gradient(top, #048FD4, #0271A8);
     text-shadow: 0 1px 0 #000;
+    box-shadow: inset 0 0px 0px rgba(255, 255, 255, 0.2), 0 0px 0px #292929;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 188px;
 }
+
 /* Curved Navigation Bar */
 
 #end1{
-	border-bottom-left-radius: 8px;
-	border-top-left-radius: 8px;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
 }
 
 #end2{
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
 	width: 188px;
 }
 
 /* Body */
 
+#text{
+    text-align: left;
+    height:200px;
+    width:946px;
+    padding:10px;
+    margin:auto;
+}
+
+body h1{
+    display:inline-block;
+    float:left;
+    clear:both;
+    font-size:30px;
+    margin:0px;
+    text-decoration: none;
+    text-shadow: 0 2px 0 #000;
+    letter-spacing: 0px;
+}
+
+body p{
+    display:inline-block;
+    float:left;
+    font-size:20px;
+}
+
+
 #body1{
     text-align: center;
-	width:950px;
+	width:946px;
 	margin:auto;
-    margin-top:-40px;
-	padding:0px;
-	height:600px;
+    margin-top:-20px;
+	height:630px;
 	background-color:white;
-	border-radius: 10px;
+	border-radius: 4px;
 	box-shadow: 1px 2px 4px #000;
+}
+
+#gradient{
+    text-align: center;
+    width:946px;
+    margin:auto;
+    margin-top:-20px;
+    padding-top:26px;
+    height:800px;
+    background-image:url('textured_paper_blue.png');
+    border-radius: 4px;
+}
+
+#body_no_radius{
+    text-align: center;
+    width:946px;
+    margin:auto;
+    margin-top:-20px;
+    height:600px;
+    background-color:white;
+    border-radius: 0px;
+    box-shadow: 1px 2px 4px #000;
 }
 
 .table-center{
@@ -212,25 +292,8 @@ div ul li a:active  {
 #inspiration{
     display: inline-block;
     position: center;
-    margin-left: 10 px;
+    margin-left: 10px;
+    margin-top:40px;
     width:400px;
 }
 
-/* Slides */
-#floatright{
-    position:absolute;
-    top:125px;
-    left:920px;
-    z-index: 100;
-    width:30px;
-    background-color: black;
-}
-
-#floatleft{
-    position:absolute;
-    top:125px;
-    left:0px;
-    z-index: 100;
-    width:30px;
-    background-color: black;
-}

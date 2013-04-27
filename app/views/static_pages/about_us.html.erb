@@ -1,12 +1,75 @@
-<div class="center hero-unit">
-	<h1>Welcome to the Sample App </h1>
+<head>
+<%= stylesheet_link_tag "home"%>
+<%= stylesheet_link_tag "camera"%>
 
-	<h2>
-		This is the home page for the 
-		<a href="http://railstutorial.org">Ruby on Rails Tutorial</a>
-		sample application.
-	</h2>
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		color: #09f;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	#back_to_camera {
+		clear: both;
+		display: block;
+		height: 80px;
+		line-height: 40px;
+		padding: 20px;
+	}
+	.fluid_container {
+		margin: 0 auto;
+		max-width: 1000px;
+		width: 90%;
+	}
+</style>
+
+</head>
+<body>
+<!-- Navbar -->
+<div class="wrap" id="logo-header">
+	<span id="logo"><%= image_tag "gyara.png" %></span>
+	<table id="resources">
+	<tr>
+		<td>joshwolters12@gmail.com | (630) 542-7152</td>
+	</tr>
+	<tr>
+		<td id="icon"><%= image_tag "logo_facebook.png" %></td>
+		<td id="icon"><%= image_tag "logo_twitter.png" %></td>
+	<tr>
+	</table>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org' %>
-<script type='text/javascript' src='../assets/testing.js'></script>
+<div class="no-wrap">
+	<ul>
+		<li><a id="end1" href="../">home</a><li>
+		<li><a href="../branding">branding</a><li>
+		<li><a href="../consulting">consulting</a><li> 
+		<li><a id="nav-select" href="../about_us">about us</a><li> 
+		<li><a id="end2" href="../contact">contact</a><li> 
+	</ul>
+	<div id="guideline3">
+	</div>
+</div>
+
+<!-- Body-->
+<div id="gradient">
+<div id="body_no_radius">
+	<span id="inspiration"><%= image_tag "inspiration.png" %></span>
+	<table class="table-center">
+		<tr>
+			<td id="bodynav_brand"></td>
+			<td id="bodynav_design"></td>
+			<td id="bodynav_numbers"></td>
+		</tr>
+	</table>
+</div>
+
+<script type='text/javascript' src='../assets/testing.js'></script> 
+</body>
+</div>
+<html>
+
