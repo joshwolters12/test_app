@@ -19,10 +19,10 @@ div.wrap  {
 }
 
 div.no-wrap  {
-	width: 946px;
+	width: 950px;
     height:100px;
     margin: auto;
-    max-width: 950px;
+    min-width: 950px;
 }
 
 /* Resources */
