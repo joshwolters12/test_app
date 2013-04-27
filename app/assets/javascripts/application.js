@@ -13,3 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require camera
+//= require testing
+//= require jquery.easing.1.3

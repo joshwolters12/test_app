@@ -111,8 +111,8 @@ textured_paper_blue.png: textured_paper_blue-4177f43e87401268619c80e62e6eb207.pn
 textured_paper_blue/index.png: textured_paper_blue-4177f43e87401268619c80e62e6eb207.png
 application.js: application-0ff8f4919247894d95103c483cd1ffe2.js
 application/index.js: application-0ff8f4919247894d95103c483cd1ffe2.js
-application.css: application-93d18ceb7888002343ca0a30ae2e0c2c.css
-application/index.css: application-93d18ceb7888002343ca0a30ae2e0c2c.css
+application.css: application-cce67f889a7a5ee30f8e8c73ee4ef78e.css
+application/index.css: application-cce67f889a7a5ee30f8e8c73ee4ef78e.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png

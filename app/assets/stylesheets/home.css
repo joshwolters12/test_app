@@ -19,9 +19,10 @@ div.wrap  {
 }
 
 div.no-wrap  {
-	width: 950px;
+	width: 946px;
     height:100px;
     margin: auto;
+    max-width: 950px;
 }
 
 /* Resources */
@@ -58,17 +59,18 @@ div.no-wrap  {
 ul{
 	margin:0px auto;
 	padding:0px;
-	display: inline-block;
+    display: inline-block;
 }
 div ul li {
     list-style: none;
-    position: relative;
+    display: inline-block;
 }
  
 div ul li a{
     text-align: center;
+    display: inline-block;
     height: 40px;
-    width: 188px;
+    width: 187px;
     line-height: 40px;
     color: #fff;
 
