@@ -22,7 +22,8 @@ div.no-wrap  {
 	width: 950px;
     height:100px;
     margin: auto;
-    min-width: 950px;
+    min-width: 100%;
+    overflow: auto;
 }
 
 /* Resources */
